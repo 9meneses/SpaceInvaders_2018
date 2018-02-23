@@ -26,7 +26,7 @@ public class VentanaJuego extends javax.swing.JFrame {
     
     BufferedImage buffer = null;
     int contador = 0;
-    Nave miNave = new Nave();
+    Nave miNave = new Nave(ANCHOPANTALLA);
     
     //bucle de animación del juego
     //en este caso, es un hilo de ejecución nuevo que se encarga
